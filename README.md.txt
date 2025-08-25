@@ -17,6 +17,7 @@ This project allows users to **register, log in, and manage their todos**.
 ## 📂 Project Structure
 │── /code # PHP backend code
 │── /views # Frontend UI pages
+│── /assets # Frontend UI pages
 │── README.md # Project documentation
 
 ---
@@ -76,3 +77,8 @@ CREATE TABLE projects (
   description TEXT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+NOTE : 
+Email : admin@gmail.com 
+Password : admin
+To access admin panel
