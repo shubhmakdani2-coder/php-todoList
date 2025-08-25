@@ -66,7 +66,7 @@ CREATE TABLE todos (
   tid INT(11) AUTO_INCREMENT PRIMARY KEY,
   uid INT(11) NOT NULL,
   todoname VARCHAR(255) NOT NULL,
-  operation INT(11) NOT NULL COMMENT '1=completed, 2=deleted',
+  operation INT(11) NOT NULL COMMENT '0=inProgress, 1=completed, 2=deleted',
   dt DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
