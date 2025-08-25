@@ -70,13 +70,7 @@ CREATE TABLE todos (
   dt DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- Projects Table
-CREATE TABLE projects (
-  pid INT(11) AUTO_INCREMENT PRIMARY KEY,
-  pname VARCHAR(100) NOT NULL,
-  description TEXT,
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-);
+
 
 NOTE : 
 Email : admin@gmail.com 
